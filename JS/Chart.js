@@ -19,7 +19,7 @@ new Chart("myChart", {
     legend: { display: false },
     scales: {
       yAxes: [{ ticks: { min: 6, max: 16 } }],
-      text: "World Wide Wine Production"
+      
 
     },
   },
