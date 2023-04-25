@@ -12,6 +12,7 @@
       src="https://kit.fontawesome.com/f1001be9c4.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
   </head>
   <body>
     <!---Sidebar--->
@@ -19,7 +20,7 @@
       <nav class="Sidebar">
         <div class="profile">
           <img id="logo" src="Media/images/Frame.png" alt="" />
-        
+
           <p id="name">Jane Doe</p>
           <p id="enrollee">HIVE 11-344-5898</p>
         </div>
@@ -68,23 +69,35 @@
           </ul>
         </div>
       </nav>
-        
+
       <nav>
         <div class="Menu-bar">
           <h2 class="title">HIVE</h2>
           <input class="input" type="search" placeholder="search" />
-          <img src="Media/images/Frame (11).png" alt="#" />
+          <img id="notification" src="Media/images/Frame (11).png" alt="#" />
         </div>
         <div class="section">
-          <h4 id=" ">Previously Updated 12-01-2022</h4>
+          <h4 id=" recent">Previously Updated 12-01-2022</h4>
 
           <div class="flex details">
-            <div class="Patient-details"><p>Blood Pressure</p></div>
-            <div class="Patient-details"><p>Blood Sugar</p></div>
-            <div class="Patient-details"><p>Weight</p></div>
+            <div class="Patient-details">
+              <i class="fa-solid fa-droplet" style="color: #e70d23"></i>
+              <p>Blood Pressure</p>
+            </div>
+            <div class="Patient-details">
+              <i class="fa-solid fa-cube" style="color: #574ebb"></i>
+              <p>Blood Sugar</p>
+            </div>
+            <div class="Patient-details">
+              <i class="fa-solid fa-weight-scale" style="color: #6d6f6f"></i>
+              <p>Weight</p>
+            </div>
           </div>
+          <canvas id="myChart" style="width: 50%; max-width: 600px"></canvas>
         </div>
       </nav>
     </div>
+
+    <script src="JS/Chart.js"></script>
   </body>
 </html>
