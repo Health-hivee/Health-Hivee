@@ -1,0 +1,23 @@
+.doctor {
+  padding-left: 21px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 3px;
+  color: var(--black);
+}
+
+#instrument {
+  object-fit: contain;
+  width: 900px;
+  display: block;
+  padding-left: 21px;
+}
+
+.doc {
+  border-radius: 50%;
+  width: 200px;
+  bottom: 115px;
+  position: relative;
+  left: 62px;
+}
