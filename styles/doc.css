@@ -22,31 +22,34 @@
   position: relative;
   left: 62px;
 }
-.GG{
-gap: 82px;
-font-weight: 700;
-font-size: 28px;
-line-height: 36px;
-font-family: var(--font);
+.GG {
+  gap: 82px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  font-family: var(--font);
 }
-.rr{
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 18px;
-font-family: var(--font);
-color: var(--gray);
+.rr {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 18px;
+  font-family: var(--font);
+  color: var(--gray);
+}
+
+.profile {
+  gap: 61px;
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: var(--gray);
+  padding-left: 32px;
+}
+
+.profile :hover >a { color: var(--black);
+    text-decoration: underline;
 
 }
 
-
-.profile{
-    gap: 61px;
-    font-family: var(--font);
-font-weight: 700;
-font-size: 24px;
-line-height: 31px;
-color: var(--gray);
-padding-left: 32px;
-
-}
