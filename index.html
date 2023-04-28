@@ -4,110 +4,232 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Health-HIVE</title>
+    <title>Health-Hive</title>
     <link rel="stylesheet" href="styles/variable.css" />
-    <link rel="stylesheet" href="styles/default.css" />
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/defaults.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+
     <script
       src="https://kit.fontawesome.com/f1001be9c4.js"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
   </head>
-  <body>
-    <!---Sidebar--->
-    <div class="container">
-      <nav class="Sidebar">
-        <div class="profile">
-          <img id="logo" src="Media/images/Frame.png" alt="" />
 
-          <p id="name">Jane Doe</p>
-          <p id="enrollee">HIVE 11-344-5898</p>
+  <body>
+    <!---Navigation--->
+    <nav class="container">
+      <div class="flex justify-between">
+        <div id="Health-Hive">
+          <img id="logo" src="./Media/images/HEALTH HIVE.png" />
         </div>
-        <div class="">
-          <ul class="flex align">
+        <div>
+          <ul class="flex">
             <li class="menu-list">
-              <img src="Media/images/Frame (10).png" alt="#" />
-              <a href="#">Dashboard</a>
+              <a href="#">Home</a>
             </li>
             <li class="menu-list">
-              <img src="Media/images/Frame (1).png" alt="#" />
-              <a href="#">Prescription</a>
+              <a href="#">Our Services</a>
             </li>
             <li class="menu-list">
-              <img src="Media/images/Frame (2).png" alt="#" />
-              <a href="#">Appointment</a>
+              <a href="#">Portal</a>
             </li>
             <li class="menu-list">
-              <img src="Media/images/Frame (3).png" alt="#" />
-              <a href="#">Billings and Claims</a>
+              <a href="#">About us</a>
             </li>
             <li class="menu-list">
-              <img src="Media/images/Frame (4).png" alt="#" />
-              <a href="#">Doctors</a>
+              <a href="#">Contact us</a>
             </li>
-            <li class="menu-list">
-              <img src="Media/images/Frame (5).png" alt="#" />
-              <a href="#">Patient</a>
-            </li>
-            <li class="menu-list">
-              <img src="Media/images/Frame (6).png" alt="#" />
-              <a href="#">EMR</a>
-            </li>
-            <li class="menu-list">
-              <img src="Media/images/Frame (7).png" alt="#" />
-              <a href="#">E- Signature</a>
-            </li>
-            <li class="menu-list">
-              <img src="Media/images/Frame (8).png" alt="#" />
-              <a href="#">Settings</a>
-            </li>
-            <li class="logout menu-list">
-              <img src="Media/images/Frame (9).png" alt="#" />
-              <a href="#">Log out</a>
+            <li class="sign-up menu-list">
+              <a class="up" href="#">Sign up</a>
             </li>
           </ul>
         </div>
-      </nav>
-
-      <nav>
-        <div class="Menu-bar">
-          <h2 class="title">HIVE</h2>
-          <input class="input" type="search" placeholder="search" />
-          <img id="notification" src="Media/images/Frame (11).png" alt="#" />
+      </div>
+    </nav>
+    <!---Banner--->
+    <div class="container">
+      <div class="flex">
+        <div class="equal">
+          <p id="compare">Lorem ipsum dolor <br />sit amet. Qui cupiditate</p>
+          <p id="save-money">Lorem ipsum dolor sit amet. Qui cupiditate</p>
+          <button>Schedule a Meeting</button>
         </div>
-        <div class="section">
-        
-
-          <div class="flex details">
-            <div class="Patient-details">
-              <i class="fa-solid fa-droplet" style="color: #e70d23"></i>
-              <p>Blood Pressure</p>
-            </div>
-            <div class="Patient-details">
-              <i class="fa-solid fa-cube" style="color: #574ebb"></i>
-              <p>Blood Sugar</p>
-            </div>
-            <div class="Patient-details">
-              <i class="fa-solid fa-weight-scale" style="color: #6d6f6f"></i>
-              <p>Weight</p>
-            </div>
-          </div>
-          <canvas
-            class="myChart"
-            id="myChart"
-            style="width: 50%; max-width: 800px; height: 122px"
-          ></canvas>
-          <h2 id="checkups">No of checkups over the last 9 months</h2>
-          <div class="flex details">
-            <div class="i">1</div>
-            <div class="i"><canvas id="myChart1" style="width:100%;max-width:350px"></canvas></div>
-          </div>
+        <div class="equal">
+          <img class="w-full" src="./Media/images/Group 37327.png" />
         </div>
-        
-      </nav>
+      </div>
+      <!---partner--->
+      <h2 id="partner">Our Most Valuable Partner</h2>
+
+      <div class="partner flex">
+        <div>
+          <img class="pp" src="Media/images/R-removebg-preview 1.png" alt="" />
+        </div>
+        <div>
+          <img
+            class="pp"
+            src="Media/images/LifeHealth-Vector-Logo_color1-removebg-preview 1.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="pp"
+            src="Media/images/OIP-removebg-preview 1.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="pp"
+            src="Media/images/LeeHealth-Logo-removebg-preview 1.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <h2 id="partner">Our Services</h2>
+      <!--Services-->
+      <div class="services-gap flex">
+        <div class="Services"></div>
+        <div class="Services"></div>
+        <div class="Services"></div>
+      </div>
+
+      <div class="flex">
+        <div class="equal">
+          <p id="compare">
+            What Makes Us More<br />
+            Special
+          </p>
+          <p id="value">Lorem ipsum dolor sit amet. Qui cupiditate</p>
+          <br />
+
+          <p id="value">
+            <i
+              class="fa-solid fa-circle-check fa-lg"
+              style="color: #574ebb"
+            ></i>
+            Lorem ipsum dolor sit amet. Qui cupiditate
+          </p>
+          <p id="value">
+            <i class="fa-solid fa-circle-check fa-lg" style="color: #574ebb"></i
+            >Lorem ipsum dolor sit amet. Qui cupiditate
+          </p>
+          <p id="value">
+            <i class="fa-solid fa-circle-check fa-lg" style="color: #574ebb"></i
+            >Lorem ipsum dolor sit amet. Qui cupiditate
+          </p>
+        </div>
+        <div class="equal">
+          <img
+            id="special"
+            class="w-full"
+            src="./Media/images/Group 37328.png"
+          />
+        </div>
+      </div>
+      <!--specialist-->
+      <h2 id="partner">Meet our specialist</h2>
+
+      <div class="services-gap flex">
+        <div class="Services">
+          <img
+            class="specialist-pic"
+            src="Media/images/ashkan-forouzani-DPEPYPBZpB8-unsplash-removebg-preview 1.png"
+            alt=""
+          />
+          <p>Dr, Seyi Balogun</p>
+          <h3>Pharmacist</h3>
+        </div>
+        <div class="Services">
+          <img
+            class="specialist-pic"
+            src="Media/images/austin-distel-7bMdiIqz_J4-unsplash-removebg-preview 1.png"
+            alt=""
+          />
+          <p>Dr, Seyi Balogun</p>
+          <h3>Pharmacist</h3>
+        </div>
+        <div class="Services">
+          <img
+            class="specialist-pic"
+            src="Media/images/siednji-leon-lnlSIsiSjjc-unsplash-removebg-preview 1.png"
+            alt=""
+          />
+          <p>Dr, Seyi Balogun</p>
+          <h3>Pharmacist</h3>
+        </div>
+      </div>
     </div>
 
-    <script src="JS/Chart.js"></script>
+    <div>
+      <!--What our Clients say about us-->
+      <h2 id="partner" class="partner">What our Clients say <br />about us</h2>
+
+      <div class="testimonial flex">
+        <div class="what-client">
+          <div class="what flex">
+            <div>
+              <i
+                class="fa-solid fa-quote-right fa-flip-horizontal fa-xl"
+                style="color: rgb(177, 170, 255)"
+              ></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-star fa-lg" style="color: #574ebb"></i>
+              <i class="fa-solid fa-star fa-lg" style="color: #574ebb"></i>
+              <i class="fa-solid fa-star fa-lg" style="color: #574ebb"></i>
+              <i class="fa-solid fa-star fa-lg" style="color: #574ebb"></i>
+              <i class="fa-solid fa-star fa-lg" style="color: #574ebb"></i>
+            </div>
+          </div>
+
+          <div>
+            <h2>
+              Lorem ipsum dolor sit amet. Qui cupiditate quia aut <br>dolor
+              doloremque ab sequi quae ut dicta consequuntur <br>qui omnis harum ab
+              galisum Quis. Sit pariatur pariatur aut <br> omnis rem
+              cupiditate impedit.<br>Sed assumenda ducimus non <br>nemo nemo ad nihil
+              pariatur ut eveniet dolorem? Qui deleniti<br>repellendus <br>qui
+              quibusdam
+            </h2>
+          </div>
+        </div>
+
+        <div class="what-client">
+            <div class="what flex">
+              <div>
+                <i
+                  class="fa-solid fa-quote-right fa-flip-horizontal fa-xl"
+                  style="color: rgb(177, 170, 255)"
+                ></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-star fa-lg" style="color: #574ebb"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #574ebb"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #574ebb"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #574ebb"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #574ebb"></i>
+              </div>
+            </div>
+  
+            <div>
+              <h2>
+                Lorem ipsum dolor sit amet. Qui cupiditate quia aut <br> dolor
+                doloremque ab sequi quae ut dicta consequuntur <br>qui omnis harum ab
+                galisum Quis. Sit pariatur pariatur aut <br> necessitatibu omnis rem
+                cupiditate impedit.<br> Sed assumenda ducimus non <br> nemo nemo ad nihil
+                pariatur ut eveniet dolorem? Qui deleniti <br>repellendus <br>
+                quibusdam
+              </h2>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <button id="button">Enroll Now</button>
+    </div>
   </body>
 </html>
